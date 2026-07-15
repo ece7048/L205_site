@@ -1,0 +1,19 @@
+Agentic-AI Workers Voiceover Transcript
+
+Voice: Moira, en_IE, smooth female native-English voice at rate 165.
+
+1. We begin with corresponding areas of the brain whose functions resemble agentic AI: coordination for the orchestrator, specialised processing for workers, and memory for stored experience.
+2. Before zooming into each part, the module explains these functions and highlights the backend of trustworthiness, explanation, interpretation, reasoning, forgetting, and the vision, language, NLP, omics and biology workers.
+3. The orchestrator resembles control networks coordinating goals, conflict, and routing.
+4. In the agent, the orchestrator parses input, recognises the task, selects workers, and monitors the run.
+5. Each worker receives inputs, runs a specialised model or tool, and returns outputs with reasoning traces.
+6. For omics, sequence analysis, mathematics, and biology, the worker integrates quantitative and semantic knowledge.
+7. The NLP worker mirrors language networks that parse instructions and generate explanations.
+8. The vision worker maps to visual cortex, extracting patterns from images and scans.
+9. The explanation worker turns evidence and model behaviour into a readable narrative.
+10. The memory worker stores useful traces and retrieves prior cases for continual learning.
+11. The reasoning worker holds intermediate states, compares hypotheses, and chooses justified next steps.
+12. Trust requires validity checks, functionality tests, uncertainty estimates, attributional explainability, and mechanistic interpretation.
+13. When a worker keeps learning, new tasks can damage old skills: catastrophic forgetting.
+14. Mitigation uses replay, regularisation, adapters, monitoring, drift tests, and memory-aware learning.
+15. Together, brain-inspired workers form an agentic architecture linked to L205 neuroscience and biomedicine.
