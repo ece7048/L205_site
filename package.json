@@ -1,0 +1,14 @@
+{
+  "name": "l205-ai-neuroscience-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GitHub Pages site for the L205 Principles of AI-Driven Neuroscience and Translational Biomedicine module.",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "video:render": "bash tools/make_agentic_video.sh",
+    "video:voiceover": "bash tools/add_agentic_voiceover.sh"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  }
+}

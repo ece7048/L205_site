@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Principles of AI-Driven Neuroscience and Translational Biomedicine, L205 ACS Master module."
+    />
+    <title>Principles of AI-Driven Neuroscience and Translational Biomedicine</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23071015'/%3E%3Cpath d='M14 35c7-18 25-18 36 0M18 42c6-9 22-9 28 0' fill='none' stroke='%2322c7dd' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='21' cy='26' r='4' fill='%23ff6b57'/%3E%3Ccircle cx='43' cy='26' r='4' fill='%237cc67b'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="signal-field" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Course home">
+        <span class="brand-mark">L205</span>
+        <span>AI Neuroscience</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#agentic-ai">Agentic AI</a>
+        <a href="#lectures">Lectures</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#resources">Resources</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/ai-neuroscience-hero.png" alt="" />
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="kicker">L205 ACS Master module</p>
+          <h1>Principles of AI-Driven Neuroscience and Translational Biomedicine</h1>
+          <p class="hero-copy">
+            A research-led module on how neuroscience can inspire new AI systems, and how
+            modern AI can reveal structure, mechanism, and clinically meaningful patterns in
+            brain, omics, imaging, and language data.
+          </p>
+          <div class="hero-actions" aria-label="Course actions">
+            <a class="button primary" href="#video">Watch preview</a>
+            <a class="button secondary" href="#lectures">Explore syllabus</a>
+          </div>
+          <div class="hero-facts" aria-label="Module highlights">
+            <div>
+              <strong>8</strong>
+              <span>two-hour lectures</span>
+            </div>
+            <div>
+              <strong>20/50/30</strong>
+              <span>test, project, viva</span>
+            </div>
+            <div>
+              <strong>2</strong>
+              <span>students per project</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section intro-grid">
+        <div class="section-heading">
+          <p class="kicker">Course idea</p>
+          <h2>From brain data to interpretable AI, and back again.</h2>
+        </div>
+        <div class="feature-panel">
+          <p>
+            The module connects brain anatomy, connectomes, neuroimaging, multi-omics,
+            clinical big data, deep learning, graph learning, large language models, and
+            translational applications. The aim is not only to predict outcomes, but to
+            understand where predictive power comes from.
+          </p>
+          <div class="bridge-diagram" aria-label="AI and neuroscience relationship">
+            <span>Neuroscience</span>
+            <b></b>
+            <span>AI</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section emphasis">
+        <div class="emphasis-card">
+          <h3>Attributional explainability</h3>
+          <p>
+            Feature importance, saliency, Grad-CAM, SHAP, GNNExplainer, and biomarker
+            validation for models working with neuroimaging, neurobiology, and medical language.
+          </p>
+        </div>
+        <div class="emphasis-card">
+          <h3>Mechanistic interpretability</h3>
+          <p>
+            Information flow inside models, sparse autoencoders, superposition,
+            polysemantic features, and circuit-level explanations for medical LLMs and biology.
+          </p>
+        </div>
+        <div class="emphasis-card">
+          <h3>Memory and forgetting</h3>
+          <p>
+            Catastrophic forgetting, model collapse, continual learning, replay, LoRA, and
+            neuroscience foundations of memory in human and artificial systems.
+          </p>
+        </div>
+      </section>
+
+      <section id="video" class="section video-section">
+        <div class="section-heading">
+          <p class="kicker">Preview</p>
+          <h2>A cinematic entry point for the course story.</h2>
+        </div>
+        <div class="video-shell">
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            poster="assets/ai-neuroscience-hero.png"
+            aria-label="Course preview video"
+          >
+            <source src="assets/course-video.mp4" type="video/mp4" />
+          </video>
+          <div class="video-caption">
+            <p>
+              Replace <code>assets/course-video.mp4</code> with the final module video when it is
+              ready. The layout, poster, and controls are already wired in.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="agentic-ai" class="section agentic-section">
+        <div class="section-heading wide">
+          <p class="kicker">Agentic-AI highlight</p>
+          <h2>Brain-Inspired Agentic AI: From Orchestration to Understanding.</h2>
+          <p class="section-comment">
+            This paradigm shows how AI agents can be inspired by neuroscience, and how
+            interpreting orchestrators and specialised workers may also help us build a deeper
+            understanding of brain function.
+          </p>
+        </div>
+        <div class="agentic-layout">
+          <div class="video-shell">
+            <video
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/agentic-ai-workers-poster.png"
+              aria-label="Agentic AI workers highlight video"
+            >
+              <source src="assets/agentic-ai-workers-highlight.mp4" type="video/mp4" />
+            </video>
+            <div class="video-caption">
+              <p>
+                The video starts with a schematic brain-to-agent map, then follows user language
+                through an orchestrator, specialised workers, reasoning, XAI, validation, memory,
+                and catastrophic forgetting.
+              </p>
+            </div>
+          </div>
+          <div class="agentic-points" aria-label="Agentic AI concepts">
+            <article>
+              <span>01</span>
+              <h3>Orchestrator</h3>
+              <p>
+                NLP input is parsed into intent, constraints, data requirements, and expected
+                output before the orchestrator selects the right worker.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Workers</h3>
+              <p>
+                Specialist workers retrieve evidence, run models, analyse outputs, and return
+                reasoning traces that can be inspected.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Trust</h3>
+              <p>
+                Validity comes from task checks, benchmarks, regression tests, uncertainty,
+                attributional XAI, and mechanistic interpretability.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Forgetting</h3>
+              <p>
+                Continual learning can damage older skills. Replay, regularisation, adapters,
+                monitoring, and drift tests help mitigate catastrophic forgetting.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="agentic-sources" aria-label="Brain analogy sources">
+          <span>Brain analogy sources:</span>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6136121/">frontoparietal control</a>
+          <a href="https://www.ncbi.nlm.nih.gov/books/NBK544320/">visual cortex</a>
+          <a href="https://www.ncbi.nlm.nih.gov/books/NBK533001/">language network</a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3495093/">working memory</a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2683244/">numerical reasoning</a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5659202/">hippocampal memory</a>
+        </div>
+      </section>
+
+      <section id="lectures" class="section">
+        <div class="section-heading wide">
+          <p class="kicker">Syllabus</p>
+          <h2>Eight lectures across brain structure, biological scale, AI methods, and translation.</h2>
+        </div>
+        <div class="timeline" aria-label="Lecture list">
+          <article>
+            <span>Lecture 1</span>
+            <h3>Brain Anatomy, Connectomes and Neuroimaging</h3>
+            <p>
+              Lobes, sulci, folding patterns, structural and functional MRI, and extracting
+              connectome information from imaging data.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 2</span>
+            <h3>Multi-Omics and Neurobiology</h3>
+            <p>
+              Genomics, transcriptomics, proteomics, metabolomics, microbiome layers, cellular
+              heterogeneity, and AI-driven integration.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 3</span>
+            <h3>Deep Learning and Geometric Deep Learning</h3>
+            <p>
+              MLPs, CNNs, transformers, attention, ViT, graph representations, GCNs, GATs, and
+              connectomic graph learning.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 4</span>
+            <h3>Clinical Big-Data Neuroscience</h3>
+            <p>
+              Large clinical datasets, UK Biobank-style pipelines, population-level neuroscience,
+              and clinically grounded discovery.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 5</span>
+            <h3>LLMs, Catastrophic Forgetting and Neuroscience</h3>
+            <p>
+              Continual learning, replay, regularization, HAT, gradient memory, LoRA, model
+              collapse, and cognitive neuroscience parallels.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 6</span>
+            <h3>Attributional Interpretability</h3>
+            <p>
+              Grad-CAM, SHAP, GNNExplainer, saliency, feature importance, and explainability in
+              m-LLMs, neuroimaging, and neurobiology.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 7</span>
+            <h3>Mechanistic Interpretability</h3>
+            <p>
+              Superposition, polysemanticity, privileged bases, sparse autoencoders, information
+              flow, and biological model explanations.
+            </p>
+          </article>
+          <article>
+            <span>Lecture 8</span>
+            <h3>Applications in Omics, Reports and Neuro-Imaging</h3>
+            <p>
+              Clinical case studies, translational decision support, invited research and industry
+              perspectives, and integrated AI-neuroscience workflows.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="assessment" class="section assessment">
+        <div class="section-heading">
+          <p class="kicker">Assessment</p>
+          <h2>Structured assessment with theory, collaboration, and individual defence.</h2>
+        </div>
+        <div class="assessment-grid">
+          <article>
+            <strong>20%</strong>
+            <h3>Theory test</h3>
+            <p>
+              A 30-minute, in-class, closed-book test after Lecture 5 and before Lecture 7,
+              focused on the fundamental concepts introduced in Lectures 1 to 5.
+            </p>
+          </article>
+          <article>
+            <strong>50%</strong>
+            <h3>Group mini-project report</h3>
+            <p>
+              A pair-based project with a 4,000-word report. Students may propose a project or
+              select from structured topics provided at the start of term.
+            </p>
+          </article>
+          <article>
+            <strong>30%</strong>
+            <h3>Presentation and viva</h3>
+            <p>
+              A short presentation on individual contributions, followed by a brief viva to
+              discuss decisions, results, interpretation, and project ownership.
+            </p>
+          </article>
+        </div>
+        <div class="support-strip">
+          <p>
+            Project fairness is supported through report contribution statements, individual
+            teammate contribution statements, two dedicated progress discussion sessions, and
+            first-line PhD student support for project questions.
+          </p>
+        </div>
+      </section>
+
+      <section class="section outcomes">
+        <div class="section-heading">
+          <p class="kicker">Learning outcomes</p>
+          <h2>Students leave able to work across models, mechanisms, and biomedical data.</h2>
+        </div>
+        <ul class="outcome-list">
+          <li>Build a multi-scale view of neuroscience from molecules to systems.</li>
+          <li>Apply deep learning and graph learning to brain and biomedical datasets.</li>
+          <li>Evaluate AI in clinical contexts, including reliability and forgetting.</li>
+          <li>Use attributional and mechanistic interpretability to validate patterns.</li>
+          <li>Analyse translational case studies in psychosis, brain cancer, and neurodegeneration.</li>
+          <li>Critically assess how AI can advance neuroscience and clinical decision support.</li>
+        </ul>
+      </section>
+
+      <section id="resources" class="section resources">
+        <div class="section-heading wide">
+          <p class="kicker">Reading and tools</p>
+          <h2>A compact launchpad for theory, books, and coding frameworks.</h2>
+        </div>
+
+        <div class="resource-controls" role="tablist" aria-label="Resource categories">
+          <button class="resource-tab active" type="button" data-target="theory">Theory</button>
+          <button class="resource-tab" type="button" data-target="books">Books</button>
+          <button class="resource-tab" type="button" data-target="coding">Coding</button>
+        </div>
+
+        <div class="resource-panel active" id="theory">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1053811913002656">Neuroimaging foundations</a>
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1239902/">Brain connectivity</a>
+          <a href="https://arxiv.org/abs/2305.09880">Transformers and modern AI</a>
+          <a href="https://arxiv.org/abs/1801.10130">Graph attention networks</a>
+          <a href="https://arxiv.org/abs/1609.02907">Graph convolutional networks</a>
+          <a href="https://arxiv.org/abs/1610.02391">Grad-CAM</a>
+          <a href="https://arxiv.org/abs/1705.07874">GNNExplainer and XAI</a>
+          <a href="https://arxiv.org/abs/2309.08600">Mechanistic interpretability</a>
+          <a href="https://www.nature.com/articles/s41587-022-01284-4">Single-cell and omics AI</a>
+          <a href="https://www.nature.com/articles/s41592-025-02899-6">AI for biological discovery</a>
+        </div>
+
+        <div class="resource-panel" id="books">
+          <p>Deep Learning, Ian Goodfellow, Yoshua Bengio and Aaron Courville</p>
+          <p>Graph Representation Learning, William L. Hamilton</p>
+          <p>Graph Neural Networks: Foundations, Frontiers, and Applications, Lingfei Wu et al.</p>
+          <p>Changing Connectomes, Marcus Kaiser</p>
+          <p>Principles of Neurodynamics, Frank Rosenblatt</p>
+          <p>Mind in Motion, Barbara Tversky</p>
+          <p>Cognitive Foundations of Agentic AI, Anand Vemula</p>
+          <p>Machine Learning: A Probabilistic Perspective, Kevin P. Murphy</p>
+        </div>
+
+        <div class="resource-panel" id="coding">
+          <a href="https://pytorch-geometric.readthedocs.io/en/latest/">PyTorch Geometric</a>
+          <a href="https://captum.ai/">Captum</a>
+          <a href="https://pytorch.org/hub/huggingface_pytorch-transformers/">PyTorch Transformers Hub</a>
+          <a href="https://huggingface.co/">Hugging Face</a>
+          <a href="https://transformerlensorg.github.io/TransformerLens/">TransformerLens</a>
+          <a href="https://sites.google.com/site/bctnet/">Brain Connectivity Toolbox</a>
+          <a href="https://www.sc-best-practices.org/preamble.html">Single-cell best practices</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Principles of AI-Driven Neuroscience and Translational Biomedicine, L205 ACS Master.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
