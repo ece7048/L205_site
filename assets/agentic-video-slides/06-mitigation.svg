@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="06-mitigation.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.29868663"
+     inkscape:cx="1074.705"
+     inkscape:cy="450.30473"
+     inkscape:window-width="1474"
+     inkscape:window-height="488"
+     inkscape:window-x="1651"
+     inkscape:window-y="309"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg13" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      text{font-family:Inter,Arial,sans-serif;letter-spacing:0}
+      .title{font-size:78px;font-weight:800;fill:#fff}
+      .head{font-size:48px;font-weight:800}
+      .copy{font-size:34px;fill:#dce8eb}
+      .box{fill:#10232b;stroke:#315763;stroke-width:2;rx:24}
+    </style>
+  </defs>
+  <rect
+     width="1920"
+     height="1080"
+     fill="#071015"
+     id="rect1" />
+  <circle
+     cx="1590"
+     cy="740"
+     r="300"
+     fill="#7cc67b"
+     opacity="0.08"
+     id="circle1" />
+  <text
+     x="120"
+     y="135"
+     class="title"
+     id="text1">Mitigating forgetting</text>
+  <rect
+     x="125.15948"
+     y="240.15948"
+     width="1050.8683"
+     height="149.68103"
+     class="box"
+     id="rect2" />
+  <text
+     x="170"
+     y="305"
+     class="head"
+     fill="#22c7dd"
+     id="text2">Replay memory</text>
+  <text
+     x="170"
+     y="360"
+     class="copy"
+     id="text3">Keep examples of older tasks and rehearse them.</text>
+  <rect
+     x="125.15581"
+     y="440.15582"
+     width="1044.1796"
+     height="149.68837"
+     class="box"
+     id="rect3" />
+  <text
+     x="170"
+     y="505"
+     class="head"
+     fill="#ff6b57"
+     id="text4">Regularisation</text>
+  <text
+     x="170"
+     y="560"
+     class="copy"
+     id="text5">Protect important parameters using EWC-style constraints.</text>
+  <rect
+     x="125.15765"
+     y="640.15765"
+     width="1047.5239"
+     height="149.68469"
+     class="box"
+     id="rect5" />
+  <text
+     x="170"
+     y="705"
+     class="head"
+     fill="#7cc67b"
+     id="text6">Adapters and monitoring</text>
+  <text
+     x="170"
+     y="760"
+     class="copy"
+     id="text7">Use LoRA or task adapters plus regression tests and drift alarms.</text>
+  <text
+     x="1360.9235"
+     y="163.98865"
+     class="head"
+     fill="#071015"
+     id="text8"
+     style="fill:#ffffff">Trustworthy agentic AI</text>
+  <text
+     x="1360.9235"
+     y="238.98865"
+     class="copy"
+     fill="#26343c"
+     id="text9">orchestration</text>
+  <text
+     x="1360.9235"
+     y="293.98865"
+     class="copy"
+     fill="#26343c"
+     id="text10">workers</text>
+  <text
+     x="1360.9235"
+     y="348.98865"
+     class="copy"
+     fill="#26343c"
+     id="text11">XAI and validation</text>
+  <text
+     x="1360.9235"
+     y="403.98865"
+     class="copy"
+     fill="#26343c"
+     id="text12">memory-aware learning</text>
+  <text
+     x="125"
+     y="940"
+     class="copy"
+     fill="#fff"
+     id="text13">This is why L205 studies AI models as systems that must be interpreted, tested and maintained.</text>
+</svg>

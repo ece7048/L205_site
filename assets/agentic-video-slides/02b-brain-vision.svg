@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="02-brain-vision.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.27284492"
+     inkscape:cx="1601.6424"
+     inkscape:cy="595.57642"
+     inkscape:window-width="1207"
+     inkscape:window-height="388"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">text{font-family:Inter,Arial,sans-serif;letter-spacing:0}.title{font-size:76px;font-weight:800;fill:#fff}.copy{font-size:36px;fill:#dce8eb}.small{font-size:27px;fill:#aebfc5}.kicker{font-size:28px;font-weight:800;fill:#ff6b57}.brain{fill:#101f28;stroke:#dce8eb;stroke-width:5}.region{stroke:#fff;stroke-width:5}.muted{fill:#263943;opacity:.5}</style>
+  </defs>
+  <rect
+     width="1920"
+     height="1080"
+     fill="#071015"
+     id="rect1" />
+  <text
+     x="105"
+     y="130"
+     class="kicker"
+     id="text1">WORKER: VISION</text>
+  <text
+     x="105"
+     y="225"
+     class="title"
+     id="text2">Visual processing and pattern extraction</text>
+  <text
+     x="108"
+     y="302"
+     class="copy"
+     id="text3">Brain analogy: occipital visual cortex, from V1 through higher visual areas V2-V5.</text>
+  <g
+     transform="translate(235 360) scale(1.08)"
+     id="g8">
+    <path
+       class="brain"
+       d="M155 430 C40 340 58 160 190 75 C300 5 450 25 545 110 C635 35 800 40 910 130 C1035 232 1035 410 916 518 C800 622 610 625 470 565 C358 620 235 580 155 430Z"
+       id="path3" />
+    <ellipse
+       class="muted"
+       cx="255"
+       cy="210"
+       rx="105"
+       ry="88"
+       id="ellipse3" />
+    <ellipse
+       class="muted"
+       cx="325"
+       cy="300"
+       rx="68"
+       ry="52"
+       id="ellipse4" />
+    <ellipse
+       class="muted"
+       cx="650"
+       cy="402"
+       rx="88"
+       ry="58"
+       id="ellipse5" />
+    <ellipse
+       class="muted"
+       cx="520"
+       cy="490"
+       rx="88"
+       ry="46"
+       id="ellipse6" />
+    <ellipse
+       class="region"
+       cx="878"
+       cy="315"
+       rx="120"
+       ry="145"
+       fill="#ff6b57"
+       id="ellipse7" />
+    <text
+       x="810"
+       y="165"
+       class="small"
+       id="text7">occipital</text>
+    <text
+       x="840"
+       y="200"
+       class="small"
+       id="text8">V1-V5</text>
+  </g>
+  <text
+     x="1458.9336"
+     y="486.67456"
+     class="title"
+     font-size="48"
+     fill="#071015"
+     id="text9">Agent role</text>
+  <text
+     x="1444.2733"
+     y="553.00946"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text10">Read images and scans</text>
+  <text
+     x="1480.9241"
+     y="617.6698"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text11">Detect visual patterns</text>
+  <text
+     x="1403.9573"
+     y="682.3302"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text12">Feed evidence to the pipeline</text>
+</svg>

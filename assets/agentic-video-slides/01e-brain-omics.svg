@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="06-brain-omics.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.29184139"
+     inkscape:cx="1089.633"
+     inkscape:cy="503.69825"
+     inkscape:window-width="1636"
+     inkscape:window-height="455"
+     inkscape:window-x="1562"
+     inkscape:window-y="276"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">text{font-family:Inter,Arial,sans-serif;letter-spacing:0}.title{font-size:72px;font-weight:800;fill:#fff}.copy{font-size:34px;fill:#dce8eb}.small{font-size:27px;fill:#aebfc5}.kicker{font-size:28px;font-weight:800;fill:#f2b36d}.brain{fill:#101f28;stroke:#dce8eb;stroke-width:5}.region{stroke:#fff;stroke-width:5}.muted{fill:#263943;opacity:.5}</style>
+  </defs>
+  <rect
+     width="1920"
+     height="1080"
+     fill="#071015"
+     id="rect1" />
+  <text
+     x="105"
+     y="130"
+     class="kicker"
+     id="text1">WORKER: MULTI-OMICS, SEQUENCE, MATH, BIOLOGY</text>
+  <text
+     x="105"
+     y="225"
+     class="title"
+     id="text2">Quantitative and semantic biological knowledge</text>
+  <text
+     x="108"
+     y="302"
+     class="copy"
+     id="text3">Brain analogy: intraparietal sulcus for numerical reasoning, anterior temporal semantic knowledge, and PFC integration.</text>
+  <g
+     transform="translate(235 360) scale(1.08)"
+     id="g8">
+    <path
+       class="brain"
+       d="M155 430 C40 340 58 160 190 75 C300 5 450 25 545 110 C635 35 800 40 910 130 C1035 232 1035 410 916 518 C800 622 610 625 470 565 C358 620 235 580 155 430Z"
+       id="path3" />
+    <ellipse
+       class="muted"
+       cx="878"
+       cy="315"
+       rx="95"
+       ry="120"
+       id="ellipse3" />
+    <ellipse
+       class="muted"
+       cx="325"
+       cy="300"
+       rx="68"
+       ry="52"
+       id="ellipse4" />
+    <ellipse
+       class="region"
+       cx="585"
+       cy="230"
+       rx="105"
+       ry="62"
+       fill="#f2b36d"
+       id="ellipse5" />
+    <ellipse
+       class="region"
+       cx="575"
+       cy="360"
+       rx="92"
+       ry="58"
+       fill="#f2b36d"
+       id="ellipse6" />
+    <ellipse
+       class="region"
+       cx="275"
+       cy="230"
+       rx="88"
+       ry="62"
+       fill="#f2b36d"
+       id="ellipse7" />
+    <text
+       x="535.5556"
+       y="151.66667"
+       class="small"
+       id="text7">IPS</text>
+    <text
+       x="510"
+       y="450"
+       class="small"
+       id="text8">semantic biology</text>
+  </g>
+  <text
+     x="1470.6141"
+     y="475.77399"
+     class="title"
+     font-size="48"
+     fill="#071015"
+     id="text9">Agent role</text>
+  <text
+     x="1514.0177"
+     y="544.16132"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text10">Analyse sequences</text>
+  <text
+     x="1517.4442"
+     y="604.44092"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text11">Integrate omics layers</text>
+  <text
+     x="1414.6486"
+     y="671.57349"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text12">Apply math and biology priors</text>
+</svg>

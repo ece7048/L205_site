@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;letter-spacing:0}
+      .title{font-size:78px;font-weight:800;fill:#fff}
+      .label{font-size:54px;font-weight:800;fill:#fff}
+      .copy{font-size:38px;fill:#dce8eb}
+      .small{font-size:30px;fill:#b5c6cc}
+      .box{stroke:#315763;stroke-width:2;rx:24}
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#071015"/>
+  <text x="120" y="135" class="title">When a worker keeps learning</text>
+  <rect x="155" y="290" width="505" height="220" class="box" fill="#102b35"/>
+  <rect x="707" y="290" width="505" height="220" class="box" fill="#242719"/>
+  <rect x="1259" y="290" width="505" height="220" class="box" fill="#321817"/>
+  <text x="325" y="370" class="label" fill="#22c7dd">Task A</text>
+  <text x="288" y="445" class="small">old skill stable</text>
+  <text x="877" y="370" class="label" fill="#d2a542">Task B</text>
+  <text x="834" y="445" class="small">new data arrives</text>
+  <text x="1406" y="370" class="label" fill="#ff6b57">Forgetting</text>
+  <text x="1388" y="445" class="small">old skill degrades</text>
+  <text x="165" y="650" class="copy">Catastrophic forgetting means adaptation to new tasks damages previously learned behaviour.</text>
+  <text x="165" y="725" class="copy">This links directly to L205 Lecture 5 on LLMs, memory, forgetting and model collapse.</text>
+</svg>

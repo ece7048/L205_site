@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="07-brain-memory.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.22307557"
+     inkscape:cx="1315.6977"
+     inkscape:cy="520.00316"
+     inkscape:window-width="1341"
+     inkscape:window-height="443"
+     inkscape:window-x="1620"
+     inkscape:window-y="306"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">text{font-family:Inter,Arial,sans-serif;letter-spacing:0}.title{font-size:76px;font-weight:800;fill:#fff}.copy{font-size:36px;fill:#dce8eb}.small{font-size:27px;fill:#aebfc5}.kicker{font-size:28px;font-weight:800;fill:#ef6f9a}.brain{fill:#101f28;stroke:#dce8eb;stroke-width:5}.region{stroke:#fff;stroke-width:5}.muted{fill:#263943;opacity:.5}</style>
+  </defs>
+  <rect
+     width="1920"
+     height="1080"
+     fill="#071015"
+     id="rect1" />
+  <text
+     x="105"
+     y="130"
+     class="kicker"
+     id="text1">WORKER: MEMORY</text>
+  <text
+     x="105"
+     y="225"
+     class="title"
+     id="text2">Remembering, retrieval and continual learning</text>
+  <text
+     x="108"
+     y="302"
+     class="copy"
+     id="text3">Brain analogy: hippocampus and medial temporal lobe memory systems.</text>
+  <g
+     transform="translate(235 360) scale(1.08)"
+     id="g6">
+    <path
+       class="brain"
+       d="M155 430 C40 340 58 160 190 75 C300 5 450 25 545 110 C635 35 800 40 910 130 C1035 232 1035 410 916 518 C800 622 610 625 470 565 C358 620 235 580 155 430Z"
+       id="path3" />
+    <ellipse
+       class="muted"
+       cx="255"
+       cy="210"
+       rx="105"
+       ry="88"
+       id="ellipse3" />
+    <ellipse
+       class="muted"
+       cx="878"
+       cy="315"
+       rx="95"
+       ry="120"
+       id="ellipse4" />
+    <ellipse
+       class="muted"
+       cx="610"
+       cy="210"
+       rx="86"
+       ry="56"
+       id="ellipse5" />
+    <ellipse
+       class="region"
+       cx="520"
+       cy="490"
+       rx="110"
+       ry="52"
+       fill="#ef6f9a"
+       id="ellipse6" />
+    <path
+       d="M450 490 C490 450 565 450 610 488 C565 532 490 535 450 490Z"
+       fill="#071015"
+       opacity=".28"
+       id="path6" />
+    <text
+       x="424.15073"
+       y="413.12161"
+       class="small"
+       id="text6">hippocampus / MTL</text>
+  </g>
+  <text
+     x="1408.1041"
+     y="460.17215"
+     class="title"
+     font-size="48"
+     fill="#071015"
+     id="text7">Agent role</text>
+  <text
+     x="1466.3802"
+     y="521.20654"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text8">Retrieve prior cases</text>
+  <text
+     x="1466.3802"
+     y="584.65491"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text9">Store useful traces</text>
+  <text
+     x="1381.2074"
+     y="661.55164"
+     class="copy"
+     font-size="32"
+     fill="#26343c"
+     id="text10">Protect old skills while learning</text>
+</svg>

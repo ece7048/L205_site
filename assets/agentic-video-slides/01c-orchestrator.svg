@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;letter-spacing:0}
+      .title{font-size:78px;font-weight:800;fill:#fff}
+      .step{font-size:44px;font-weight:800;fill:#fff}
+      .small{font-size:28px;fill:#bdccd1}
+      .num{font-size:42px;font-weight:800;fill:#071015}
+      .chip{fill:#22c7dd;rx:18}
+      .box{fill:#10232b;stroke:#315763;stroke-width:2;rx:22}
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="#071015"/>
+  <path d="M1420 80 C1710 200 1730 620 1490 820 C1290 990 940 960 780 780 C610 590 720 250 980 140 C1110 85 1270 70 1420 80Z" fill="#22c7dd" opacity="0.09"/>
+  <text x="120" y="135" class="title">Trivial orchestrator loop</text>
+  <g transform="translate(140 240)">
+    <rect width="70" height="70" class="chip"/><text x="23" y="49" class="num">1</text>
+    <text x="105" y="50" class="step">Parse the user input</text>
+    <text x="105" y="93" class="small">normalise language, extract intent, constraints and data pointers</text>
+  </g>
+  <g transform="translate(140 365)">
+    <rect width="70" height="70" class="chip" fill="#ff6b57"/><text x="23" y="49" class="num">2</text>
+    <text x="105" y="50" class="step">Recognise task type</text>
+    <text x="105" y="93" class="small">classification, retrieval, coding, analysis, report writing or validation</text>
+  </g>
+  <g transform="translate(140 490)">
+    <rect width="70" height="70" class="chip" fill="#7cc67b"/><text x="23" y="49" class="num">3</text>
+    <text x="105" y="50" class="step">Select workers and tools</text>
+    <text x="105" y="93" class="small">send the right task to the right specialist worker</text>
+  </g>
+  <g transform="translate(140 615)">
+    <rect width="70" height="70" class="chip" fill="#d2a542"/><text x="23" y="49" class="num">4</text>
+    <text x="105" y="50" class="step">Run, check and repair</text>
+    <text x="105" y="93" class="small">monitor traces, catch failures, retry with evidence</text>
+  </g>
+  <g transform="translate(1110 280)">
+    <rect width="560" height="130" class="box"/>
+    <text x="45" y="58" class="step">Classifier worker</text>
+    <text x="45" y="100" class="small">what kind of task is this?</text>
+    <rect y="170" width="560" height="130" class="box"/>
+    <text x="45" y="228" class="step">Retrieval worker</text>
+    <text x="45" y="270" class="small">which evidence should be used?</text>
+    <rect y="340" width="560" height="130" class="box"/>
+    <text x="45" y="398" class="step">Analysis worker</text>
+    <text x="45" y="440" class="small">what conclusion is justified?</text>
+  </g>
+  <text x="140" y="930" class="small">The orchestrator is controlled routing with logs, checks and fallbacks.</text>
+</svg>
