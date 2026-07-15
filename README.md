@@ -4,42 +4,6 @@ Static GitHub Pages website for **Principles of AI-Driven Neuroscience and Trans
 
 The site is ready to upload to GitHub as a normal static website. GitHub Pages can serve it directly from the repository root because the main file is `index.html` and all website assets use relative paths.
 
-## Preview Locally
-
-From this folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
-
-You can also use:
-
-```bash
-npm run start
-```
-
-## Upload To GitHub
-
-1. Create a new GitHub repository, for example `l205-ai-neuroscience-site`.
-2. In this folder, run:
-
-```bash
-git init
-git add .
-git commit -m "Create L205 course website"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/l205-ai-neuroscience-site.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
 ## Publish With GitHub Pages
 
 1. Open the repository on GitHub.
